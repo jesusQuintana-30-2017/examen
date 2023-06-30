@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @CrossOrigin(origins = "*", methods = {RequestMethod.POST})
 @EnableWebMvc
 @RestController
-@RequestMapping("/miruta")
+@RequestMapping("/examen")
 public class MainController {
 
     @Autowired
